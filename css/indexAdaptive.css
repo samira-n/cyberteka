@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1300px){
+    .leftContent{
+        max-width: 30%;
+    }
+
+    .nameImg{
+        width: 350px;
+    }
+
+    .logoImg{
+        width: 70px;
+    }
+ }
+
+ @media only screen and (max-width: 1035px) {
+    /* Скрываем весь другой контент */
+    .rightContent, p, .btn, .nameImg, .logoImg {
+        display: none;
+    }
+
+    .rightContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .topImg{
+        width: 100%;
+    }
+
+    .bottomImg{
+        width: 100%;
+    }
+
+    .btnTransparent{
+        margin-top: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 390px){
+
+    .content h2{
+        font-size: 40px;
+    }
+    
+    .content h3{
+        font-size: 20px;
+    }
+
+    .btnTransparent{
+        margin-top: 50%;
+    }
+  }
