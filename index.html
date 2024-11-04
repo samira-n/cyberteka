@@ -18,7 +18,7 @@
                 <img src="img/name.png" alt="" class="nameImg">
             </div>
             <p>Выбираешь клуб для того что бы провести вечер? Ты как раз вовремя, потому что в июле мы обновили видеокарты до 30 серии!</p>
-            <button class="btn" type="button">Забронировать!</button>
+            <button class="btn" type="button" id="openPopUpBtn">Забронировать!</button>
         </div>
 
         <div class="rightContent">
@@ -42,6 +42,30 @@
             </div>
         </div>
     </div>
+
+    <div class="popUp" id="popUp">
+        <div class="popUpBox">
+            <h2>Забронируй место!</h2>
+            <form action="">
+                <div class="form-row">
+                    <input type="text" placeholder="Имя" required>
+                    <input type="date" placeholder="Дата" required>
+                    <input type="time" placeholder="Время" required>
+                </div>
+                <div class="form-row">
+                    <input type="number" placeholder="Количество гостей" min="1" required>
+                </div>
+                <div class="form-row">
+                    <input type="tel" placeholder="Номер телефона" required>
+                </div>
+                <div class="form-row">
+                    <textarea name="wishes" id="wishes" placeholder="Ваши пожелания"></textarea>
+                </div>
+                <button class="btn reserve" type="button" id="reserve">Забронировать!</button>
+            </form>
+        </div>
+    </div>
+    
     <script src="js/app.js"></script>
 </body>
 </html>
