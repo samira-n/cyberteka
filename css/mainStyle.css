@@ -97,7 +97,7 @@ body{
 
 .zoneContainer{
     /* background-color: #1A1A1A; */
-    background-image: url("/img/GEO-TERRAIN4.png");
+    background-image: url("../img/GEO-TERRAIN4.png");
     height: 100vh;
     display: flex;
     flex-direction: column;
