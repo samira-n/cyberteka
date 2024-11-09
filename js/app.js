@@ -1,7 +1,9 @@
-// Открытие попапа
-document.getElementById("openPopUpBtn").addEventListener("click", function(){
-    document.getElementById("popUp").classList.add("open");
-})
+// Открытие попапа для всех кнопок с классом openPopUpBtn
+document.querySelectorAll(".openPopUpBtn").forEach(button => {
+    button.addEventListener("click", function() {
+        document.getElementById("popUp").classList.add("open");
+    });
+});
 
 // Закрытие попапа при нажатии на клавишу Escape
 window.addEventListener("keydown", (e) => {
@@ -17,7 +19,9 @@ document.querySelector(".popUpBox").addEventListener("click", (event) => {
 
 // Закрытие попапа при клике снаружи
 document.getElementById("popUp").addEventListener("click", (event) => {
-    event.currentTarget.classList.remove("open");
+    if (event.target === document.getElementById("popUp")) {
+        event.currentTarget.classList.remove("open");
+    }
 });
 
 
@@ -35,4 +39,14 @@ document.getElementById("reserve").addEventListener("click", function(){
     if(isFormValid){
         document.getElementById("popUp").classList.remove("open");
     }
+});
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+        loop: true,  // Это позволяет слайдеру зацикливаться
+    });
 });

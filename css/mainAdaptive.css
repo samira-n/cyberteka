@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1280px){
+
+    body{
+        font-size: 28px;
+    }
+
+    .wrapper{
+        margin-top: 30px;
+    }
+
+    .zoneCard h2 {
+        font-size: 30px;
+    }
+
+    .zoneCardTitle {
+        font-size: 15px;
+    }
+
+    .zoneCardDesc {
+        font-size: 20px;
+    }
+
+    .standartLink {
+        font-size: 17px;
+    }
+
+    .standartPlusLink {
+        font-size: 17px;
+    }
+
+    .ps5Link {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px){
+
+    body{
+        font-size: 23px;
+    }
+
+    .logoImg{
+        width: 80px;
+    }
+
+    .nameImg{
+        width: 400px;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        font-size: 19px;
+    }
+
+    .verticalNav li {
+        padding: 10px 0px;
+    }
+
+    .verticalNav li a {
+        font-size: 15px;
+    }
+
+    .zone{
+        margin: 10px;
+    }
+
+    .wrapper {
+        margin: 20px;
+    }
+
+    .standartImg img{
+        width: 130px;
+    }
+
+    .standartPlusImg img{
+        width: 130px;
+    }
+
+    .ps5Img img{
+        width: 130px;
+    }
+
+    .zoneCard h2 {
+        font-size: 25px;
+    }
+
+    .zoneCardDesc {
+        font-size: 17px;
+    }
+
+    .zoneCardTitle {
+        font-size: 13px;
+    }
+
+    .swiper {
+        width: 540px;
+        height: 400px;
+    }
+
+    .discounts{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discountCenter, .discountRight{
+        width: 580px;
+        height: 310px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .discountLeft{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    
+
+
+
+}
+
+@media only screen and (max-width: 860px){
+
+    .zoneContainer{
+        height: 100%;
+    }
+
+    .zoneContainerTitle{
+        margin-top: 50px;
+    }
+
+    .zones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper{
+        border: none;
+    }
+
+    .swiper {
+        width: 460px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 675px){
+    body {
+        font-size: 20px;
+    }
+
+    .logoImg {
+        width: 60px;
+    }
+
+    .nameImg {
+        width: 350px;
+    }
+
+    .swiper {
+        width: 370px;
+        height: 280px;
+    }
+
+    .reserveFormBox h2 {
+        font-size: 20px;
+    }
+
+    .reserveFormBox input, .reserveFormBox textarea {
+        padding: 7px;
+    }
+
+    .btn{
+        font-size: 17px;
+    }
+
+    .discountLeft, .discountCenter, .discountRight{
+        width: 380px;
+        height: 250px;
+    }
+
+    .info, .map{
+        width: 430px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .info{
+        width: 330px;
+        font-size: 16px;
+    }
+
+    .map{
+        width: 330px;
+        height: 230px
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swiper {
+        width: 250px;
+        height: 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 445px){
+    .discountLeft, .discountCenter, .discountRight{
+        width: 250px;
+        height: 250px;
+        font-size: 15px;
+    }
+
+    .zoneContainerTitle{
+        margin: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .discountContainer h2 {
+        font-size: 20px;
+    }
+
+    .headContent{
+        padding-left: 30px;
+    }
+
+    .headContent p{
+        font-size: 17px;
+    }
+
+    .nameImg{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 395px){
+    .swiper {
+        width: 230px;
+        height: 200px;
+    }
+
+    .info{
+        font-size: 14px;
+    }
+
+    .nameImg{
+        width: 220px;
+    }
+
+    .logoImg {
+        width: 40px;
+    }   
+    .map {
+        width: 300px;
+    }
+}

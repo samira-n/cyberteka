@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/mainAdaptive.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>КИБЕРТКА НА ПРОФСОЮЗНОЙ</title>
 </head>
 <body>
     <div class="container">
         <div class="headContainer">
-            <div class="gradientOverlay"></div>
             <img src="img/mainProf.png" alt="" class="mainProfImg">
 
             <div class="nav">
@@ -31,12 +33,35 @@
                 <p>‣ Профсоюзная улица 22/10к1</p>
                 <p>‣ Работаем круглосуточно!</p>
                 <p>‣ 8 977 320 88 88</p>
-                <button class="btn" type="button" id="openPopUpBtn">Забронировать!</button>
+                <button class="btn openPopUpBtn" type="button">Забронировать!</button>
+            </div>
+        </div>
+
+        <div class="popUp" id="popUp">
+            <div class="popUpBox">
+                <h2>Забронируй место!</h2>
+                <form action="">
+                    <div class="form-row">
+                        <input type="text" placeholder="Имя" required>
+                        <input type="date" placeholder="Дата" required>
+                        <input type="time" placeholder="Время" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="number" placeholder="Количество гостей" min="1" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" placeholder="Номер телефона" required>
+                    </div>
+                    <div class="form-row">
+                        <textarea name="wishes" id="wishes" placeholder="Ваши пожелания"></textarea>
+                    </div>
+                    <button class="btn reserve" type="button" id="reserve">Забронировать!</button>
+                </form>
             </div>
         </div>
 
         <div class="zoneContainer">
-            <p>РАЗНЫЕ ЗОНЫ С РАЗНЫМИ УСЛОВИЯМИ</p>
+            <h2 class="zoneContainerTitle">РАЗНЫЕ ЗОНЫ С РАЗНЫМИ УСЛОВИЯМИ</h2>
             <div class="wrapper">
                 <div class="zones">
                     <div class="zone">
@@ -77,8 +102,118 @@
                 </div>
             </div>
         </div>
+
+        <div class="sliderContainer">
+            <img src="img/el3.png" alt="" class="backgroundElementImg3">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="img/profSlider/profSlider1.png"></div>
+                  <div class="swiper-slide"><img src="img/profSlider/profSlider2.png"></div>
+                  <div class="swiper-slide"><img src="img/profSlider/profSlider3.png"></div>
+                  <div class="swiper-slide"><img src="img/profSlider/profSlider4.png"></div>
+                  <div class="swiper-slide"><img src="img/profSlider/profSlider5.png"></div>
+                  <div class="swiper-slide"><img src="img/profSlider/profSlider6.png"></div>
+                </div>
+              </div>
+        </div>
+
+        <div class="reserveContainer">
+            <div class="reserveForm">
+                <div class="reserveFormBox">
+                    <h2>Забронируй место!</h2>
+                    <form action="">
+                        <div class="form-row">
+                            <input type="text" placeholder="Имя" required>
+                            <input type="date" placeholder="Дата" required>
+                            <input type="time" placeholder="Время" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="number" placeholder="Количество гостей" min="1" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="tel" placeholder="Номер телефона" required>
+                        </div>
+                        <div class="form-row">
+                            <textarea name="wishes" id="wishes" placeholder="Ваши пожелания"></textarea>
+                        </div>
+                        <button class="btn reserve" type="button" id="reserve">Забронировать!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="discountContainer">
+            <h2>АКЦИИ И СКИДКИ НА ЛЮБОЙ ВКУС</h2>
+            
+            <div class="discounts">
+                <div class="discountsLeft">
+                    <div class="discountLeft">
+                        <p>ПРОМОКОД CYBER</p>
+                        <a href="#" class="discountLink">Подробнее →</a>
+                    </div>
+                    <div class="discountLeft">
+                        <p>КИБЕРФИКАЦИЯ CS</p>
+                        <a href="#" class="discountLink">Хочу учавствовать →</a>
+                    </div>
+                    <div class="discountLeft">
+                        <p>КИБЕРФИКАЦИЯ DOTA</p>
+                        <a href="#" class="discountLink">Хочу учавствовать →</a>
+                    </div>
+                </div>
+
+                <div class="discountsCenter">
+                    <div class="discountCenter">
+                        <p>СКИДКИ ПН-СР</p>
+                        <a href="#" class="discountLink">Забронировать →</a>
+                    </div>
+                    <div class="discountCenter">
+                        <p>ГРУППА ВК</p>
+                        <a href="#" class="discountLink">Перейти в группу →</a>
+                    </div>
+                </div>
+
+                <div class="discountsRight">
+                    <div class="discountRight">
+                        <p>СНЕКИ И НАПИТКИ</p>
+                        <a href="#" class="discountLink">Подробнее →</a>
+                    </div>
+                    <div class="discountRight">
+                        <p>ДР</p>
+                        <a href="#" class="discountLink">Забронировать →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="info">
+                <div class="content">
+                    <h2>Как нас найти?</h2>
+                    <p>Метро Профсоюзная <img src="img/orange-circle-logos.png" alt="orange" width="15px"> 4 минуты пешком</p>
+                    <p class="p_space">Метро Академическая <img src="img/red-circle-logos.png" alt="red" width="18px"> 5 минут пешком</p>
+                    <p>Адрес: Профсоюзная улица 22/10 к1 </p>
+                    <p class="p_space">Телефон: +7 977 320 88 88 <img src="img/Telegram.png" alt="Telegram"> <img src="img/Whatsapp.png" alt="whatsapp"></p>
+                    <p><b>По вопросам сотрудничества</b></p>
+                    <p class="p_space">Коммерческие предложения можно направить в группу ВК или в Телеграм</p>
+                    <div class="bottomContent">
+                        <button class="btn openPopUpBtn" type="button">Забронировать!</button>
+                        <a href="#">
+                            <img src="img/Vk.png" alt="VK" width="50px">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="position:relative;overflow:hidden;border-radius:30px;" class="map"><a href="https://yandex.ru/maps/org/kiberteka/30601699632/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Кибертека</a><a href="https://yandex.ru/maps/213/moscow/category/cybersport/119373172320/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Киберспорт в Москве</a><a href="https://yandex.ru/maps/213/moscow/category/gaming_club/184106332/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Игровой клуб в Москве</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.567589%2C55.681743&mode=search&oid=30601699632&ol=biz&sctx=ZAAAAAgBEAAaKAoSCZzc71AU%2BEJAEc7fhEIE5ktAEhIJfEYiNIKNzz8R5pDUQsnktD8iBgABAgMEBSgKOABA7K0HSAFqAnJ1nQHNzMw9oAEAqAEAvQGnprb8wgEFsMKDgHKCAgljeWJlcnRla2GKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=37.567589%2C55.681743&sspn=0.015407%2C0.005116&text=cyberteka&z=17" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
+        </div>
     </div>
 
     
+    <script src="js/app.js"></script>
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
