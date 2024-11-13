@@ -1,0 +1,96 @@
+@media only screen and (max-width: 1300px){
+    .mapImg{
+        width: 900px;
+    }
+
+    .ps5ZoneContainer {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+    .mapImg{
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 856px){
+    .mapImg{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 655px){
+    .mapImg{
+        width: 400px;
+    }
+    h1{
+        font-size: 44px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .verticalNav li a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .mapImg{
+        width: 300px;
+        
+    }
+
+    .reserveFormBox h2 {
+        font-size: 20px;
+    }
+
+    .reserveFormBox input,
+    .reserveFormBox textarea{
+        font-size: 11px;
+    }
+
+    .btn{
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+
+    .elMain {
+        width: 307px;
+    }
+
+    .elMain p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 475px){
+    .mapImg{
+        width: 200px;
+        height: 130px;
+        
+    }
+
+    .elMain {
+        width: 207px;
+    }
+
+    .ps5ZoneContainer{
+        padding: 100px;
+    }
+
+    .clubMapContainer {
+        padding: 100px;
+    }
+
+    .standartPlusZoneContainer {
+        padding: 100px;
+    }
+
+    .standartZoneContainer {
+        padding: 100px;
+    }
+
+}
