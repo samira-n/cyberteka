@@ -170,7 +170,7 @@ body{
 
 
 .ps5ZoneContainer{
-    background-image: url(../img/GEO-TERRAIN6.png);
+    background-color: #0E0E0E;;
     padding: 130px;
     display: flex;
     flex-direction: row;
@@ -250,7 +250,7 @@ body{
 }
 
 .clubMapContainer{
-    background-color: #0E0E0E;
+    background-image: url(../img/GEO-TERRAIN7.png);
     padding: 130px;
 }
 
@@ -263,4 +263,19 @@ body{
     background-image: url(../img/GEO-TERRAIN5.png);
     padding: 130px;
     
+}
+
+.priceBoxBootCamp{
+    border: 3px solid #FF003D;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomDescBootCamp{
+    font-size: 14px;
+    text-align: center;
+    color: #FF013E;
 }
