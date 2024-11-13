@@ -17,8 +17,8 @@ body{
 .standartZoneContainer{
     background-image: url(../img/GEO-TERRAIN5.png);
     height: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     padding: 130px;
     
 }
@@ -149,8 +149,8 @@ body{
 .standartPlusZoneContainer{
     background-color: #0E0E0E;
     padding: 130px;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     
 }
 
@@ -176,7 +176,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .pricePS5{
@@ -263,8 +263,8 @@ body{
 .bootCampContainer{
     background-image: url(../img/GEO-TERRAIN5.png);
     padding: 130px;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     
 }
 
