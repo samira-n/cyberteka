@@ -3,9 +3,9 @@
         width: 900px;
     }
 
-    .ps5ZoneContainer {
+    /* .ps5ZoneContainer {
         justify-content: center;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1050px){
@@ -89,6 +89,10 @@
     }
 
     .standartZoneContainer {
+        padding: 100px;
+    }
+
+    .bootCampContainer{
         padding: 100px;
     }
 

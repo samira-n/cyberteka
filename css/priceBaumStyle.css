@@ -17,6 +17,9 @@ body{
 .standartZoneContainer{
     background-image: url(../img/GEO-TERRAIN5.png);
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 130px;
     
 }
 
@@ -44,10 +47,6 @@ body{
     text-decoration: none;
     color: white;
     font-size: 18px;
-}
-
-.standartZoneContainer{
-    padding: 130px;
 }
 
 .descMainBox{
@@ -150,6 +149,8 @@ body{
 .standartPlusZoneContainer{
     background-color: #0E0E0E;
     padding: 130px;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
