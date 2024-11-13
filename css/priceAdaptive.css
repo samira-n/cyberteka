@@ -67,10 +67,9 @@
 }
 
 @media only screen and (max-width: 475px){
-    .mapImg{
-        width: 200px;
-        height: 130px;
-        
+    .mapImg {
+        width: 260px;
+        height: 160px;
     }
 
     .elMain {

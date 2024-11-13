@@ -262,6 +262,8 @@ body{
 .bootCampContainer{
     background-image: url(../img/GEO-TERRAIN5.png);
     padding: 130px;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
